@@ -1,0 +1,9 @@
+print("""Hello! Welcome to the story simulator! I will ask you a 
+few questions and then create a story with you as the main character!""")
+print()
+name = input("What is your name? ")
+food = input("What food do you hate the most? ")
+friend = input("What is the name of your best friend? ")
+school = input("What is the name of your school? ")
+print()
+print(f"Hello {name}! Today when you were going to {school} you and {friend} started yelling at each other. {friend} grabbed a {food} and threw it at you. You ran away and never saw {friend} again.")
