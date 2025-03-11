@@ -3,11 +3,9 @@
 print("Which Harry Potter characters are you?")
 print("--")
 lazy = input("Are you lazy?")
-if lazy == "yes":
-  print("You are not Hermione Granger")
-else:
+if lazy == "no":
   print("You are Hermione Granger! Congrats!")
-print("--")
+else:
 funny = input("Do you make others laugh unintentionally?")
 if funny == "yes":
     print("You are Ron Weasley!")
